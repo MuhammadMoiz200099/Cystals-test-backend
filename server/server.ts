@@ -7,9 +7,7 @@ import Seeds from './seeds/seeds';
 connectDB()
   .then(async (connection) => {
     const seeding = new Seeds(connection);
-    await seeding.userSeeding();
-    await seeding.dishesSeeding();
-    await seeding.orderSeeding();
+    await seeding.accountSeeding();
   }, () => { });
 
 export default new Server()

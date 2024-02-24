@@ -1,12 +1,11 @@
 import express from "express";
-import controller from "./user.controller";
+import controller from "./account.controller";
 
 const router = express.Router();
 
 router.get('/', controller.get);
 router.post('/', controller.create);
 router.get('/:id', controller.getByID);
-router.get('/get/chefs', controller.getChefUsers);
 router.put('/:id', controller.update);
 router.delete('/:id', controller.delete);
 
