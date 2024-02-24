@@ -10,7 +10,7 @@ const l = pino({
 export default l;
 
 var transport = new winston.transports.DailyRotateFile({
-  filename: './logs/foodies-%DATE%.log',
+  filename: './logs/crystal-%DATE%.log',
   datePattern: 'YYYY-MM-DD-HH',
   maxSize: '10m',
   maxFiles: '2d'
