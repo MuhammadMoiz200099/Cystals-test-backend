@@ -1,9 +1,9 @@
 # Cystals-test-backend
 
 Backend test for creating an application do the following task.
-    * CRUD endpoints for the following database schema(“Account”).
-    * User login endpoint with email and password authentication.
-    * List of accounts endpoint with result limitation through request.
+Markup :  * CRUD endpoints for the following database schema(“Account”).
+          * User login endpoint with email and password authentication.
+          * List of accounts endpoint with result limitation through request.
 
 ## Running Locally
 
